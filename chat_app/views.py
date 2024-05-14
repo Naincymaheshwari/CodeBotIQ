@@ -9,7 +9,7 @@ from django.contrib.auth.decorators import login_required
 
 
 # add here to your generated API key
-genai.configure(api_key="AIzaSyDDJiNM1B0ecoVCe3DvLAE6CvyE1s52_es")
+genai.configure(api_key="Your_API_Key")
 
 # Create your views here.
 @login_required(login_url='login')
